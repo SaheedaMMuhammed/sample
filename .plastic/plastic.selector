@@ -1,0 +1,4 @@
+repository "fpshooter@zeidah@cloud"
+  path "/"
+    br "/main"
+    co "/main"

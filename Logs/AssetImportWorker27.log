@@ -1,0 +1,680 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.27f1 (73effa14754f) revision 7598074'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 14188 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\Unity hub\2022.3.27f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker27
+-projectPath
+D:/Game Dev/My project (7)
+-logFile
+Logs/AssetImportWorker27.log
+-srvPort
+60682
+Successfully changed project path to: D:/Game Dev/My project (7)
+D:/Game Dev/My project (7)
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [25788] Host "[IP] 192.168.24.169 [Port] 0 [Flags] 2 [Guid] 4260928249 [EditorId] 4260928249 [Version] 1048832 [Id] WindowsEditor(7,akss) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [25788] Host "[IP] 192.168.24.169 [Port] 0 [Flags] 2 [Guid] 4260928249 [EditorId] 4260928249 [Version] 1048832 [Id] WindowsEditor(7,akss) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
+Refreshing native plugins compatible for Editor in 12.07 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.27f1 (73effa14754f)
+[Subsystems] Discovering subsystems at path D:/Unity hub/2022.3.27f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Game Dev/My project (7)/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon (TM) Graphics (ID=0x15e7)
+    Vendor:   ATI
+    VRAM:     7094 MB
+    Driver:   31.0.21912.14
+Initialize mono
+Mono path[0] = 'D:/Unity hub/2022.3.27f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity hub/2022.3.27f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Unity hub/2022.3.27f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56808
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity hub/2022.3.27f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/Unity hub/2022.3.27f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: D:/Unity hub/2022.3.27f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.008475 seconds.
+- Loaded All Assemblies, in  0.662 seconds
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.469 seconds
+Domain Reload Profiling: 1132ms
+	BeginReloadAssembly (240ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (2ms)
+	RebuildCommonClasses (49ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (94ms)
+	LoadAllAssembliesAndSetupDomain (263ms)
+		LoadAssemblies (240ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (258ms)
+			TypeCache.Refresh (255ms)
+				TypeCache.ScanAssembly (227ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (470ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (371ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			SetLoadedEditorAssemblies (9ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (5ms)
+			ProcessInitializeOnLoadAttributes (261ms)
+			ProcessInitializeOnLoadMethodAttributes (83ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.735 seconds
+Refreshing native plugins compatible for Editor in 3.71 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.743 seconds
+Domain Reload Profiling: 1479ms
+	BeginReloadAssembly (183ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (28ms)
+	RebuildCommonClasses (38ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (49ms)
+	LoadAllAssembliesAndSetupDomain (452ms)
+		LoadAssemblies (394ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (174ms)
+			TypeCache.Refresh (152ms)
+				TypeCache.ScanAssembly (135ms)
+			ScanForSourceGeneratedMonoScriptInfo (15ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (744ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (588ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (54ms)
+			ProcessInitializeOnLoadAttributes (498ms)
+			ProcessInitializeOnLoadMethodAttributes (24ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 7.29 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3368 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 50 unused Assets / (2.1 MB). Loaded Objects now: 3845.
+Memory consumption went from 191.1 MB to 189.0 MB.
+Total: 8.284300 ms (FindLiveObjects: 0.423200 ms CreateObjectMapping: 0.392900 ms MarkObjects: 6.433800 ms  DeleteObjects: 1.032600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/VignetteModel.cs: 7f50c2aab37a4c3e017a6b0f247e351d -> ab6733272f937ac0155aab47b4a8e58e
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:scripting/monoscript/fileName/EyeAdaptationModel.cs: c2582e37de801fc612b6e2b78c316317 -> 5bcc92c7d981d480ed07d6af7dd1a959
+  custom:scripting/monoscript/fileName/PostProcessingModelEditorAttribute.cs: db70957ea2f5702caf5a3d5465ec0ca8 -> 84467b1ef2082fe26f00bdedc34db836
+  custom:scripting/monoscript/fileName/ReflectionUtils.cs: 4cf56b35fc0288d163c9877b6f016be8 -> 14b4c7d2cdf78d9b158d00fb2c3c24b2
+  custom:scripting/monoscript/fileName/MinDrawer.cs: 8c2b8afec69acb014b5f94026d0bc075 -> f0b5a34ad7cefeba48c04a270d4abfc9
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/ExampleWheelController.cs: 8ef2607279449ba0124cd057c36f5238 -> 9600d370c57ff0da5766666ba4365a29
+  custom:scripting/monoscript/fileName/GetSetAttribute.cs: 331252b1a22d46f152f344faf6ec65dd -> b786c1938e0c0f5ecaf463807c2d7653
+  custom:scripting/monoscript/fileName/FxStyles.cs: 6a44d9435d507cc53ca866719410aab5 -> 82e974921467cb55809ecad82f38f7ca
+  custom:scripting/monoscript/fileName/Lighthouse.cs: f6a53c65caf957895a41c57efd86931b -> 1c373454e8f785b9593c6788c560b47f
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/PostProcessingContext.cs: 9420ae8a3fc3cae129f59dbf249be64b -> be8a0bc1565c6324b1fd40a33f66279b
+  custom:scripting/monoscript/fileName/PostProcessingInspector.cs: eb67cd382a487b175c97d8da4aa39063 -> b617eaa0b6e3e752eaf9e9a89203dc82
+  custom:scripting/monoscript/fileName/AntialiasingModelEditor.cs: 5fa1cb14bd7249778e069afe33861317 -> 0f2b80733b1449af72ed38ee469e2a30
+  custom:scripting/monoscript/fileName/EyeAdaptationComponent.cs: 4aabdb34710c188404aa0767c07d0b12 -> 0cb2aaf8cdc20c0baee2205168cbc73c
+  custom:scripting/monoscript/fileName/FxaaComponent.cs: 2d7cef533f04293cc74777705401efd9 -> 9d1fd3efb92e1fef6fd176ee45003f08
+  custom:scripting/monoscript/fileName/DitheringModel.cs: 35de98f8c7f466cbb80be31d7d5b9db6 -> fa99c50231ddc7ca26b5d6c9a68b4b31
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/ExtinguishableFire.cs: 8bf95ae1b8238aad5a7d8659e5c1f34d -> 6fc079e965f07121ccb01d97432a83e7
+  custom:scripting/monoscript/fileName/Readme.cs: d224ae3d547135c42971b15162f90d4d -> 5aedf578fb2663036982fb7b05aaf325
+  custom:scripting/monoscript/fileName/TrackballAttribute.cs: fedcdb6c3082a60a262c7d32cb067872 -> b6bebfc375cd859fcabdbe7a117a8817
+  custom:scripting/monoscript/fileName/PostProcessingProfile.cs: 3d5272bea11d9f6fd95c506ce62c7f9f -> e94a21971fab43a541218a4f91e0403c
+  custom:scripting/monoscript/fileName/BuiltinDebugViewsModel.cs: f3572096872cdfba04eea38b644a4f17 -> 4a09809f2c0ed6cca27229b06ce1d289
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/RenderTextureFactory.cs: bbce6219827da116e287de018780b232 -> b11bc916a1a88ed67d986ee69a536511
+  custom:scripting/monoscript/fileName/FogModelEditor.cs: a96e8a1d71344934839dba86c3806561 -> 64b75506b78e4411272a1d25aff5dcfd
+  custom:scripting/monoscript/fileName/EyeAdaptationModelEditor.cs: 60c3d575675edccba1bf673339a8a8f1 -> ee1343b3ceaceb2c63bf272baf871cbd
+  custom:scripting/monoscript/fileName/NVWaterShaders.cs: 176b9d6151e370d09ddf63830e05b202 -> 4b9987c0eca52fe1aef95c9eeef2276a
+  custom:scripting/monoscript/fileName/DefaultPostFxModelEditor.cs: 0c9d96a056b1148b7e44c118fbce4598 -> e4be4b1d308934dee3a6a91920dc1b3d
+  custom:scripting/monoscript/fileName/PostProcessingFactory.cs: 0fef9d09be526d2bfd738bbdc0f6e8d0 -> f4e35cbabcf5e0add8e963bb8ab175b2
+  custom:scripting/monoscript/fileName/GunAim.cs: f5f0cfd4962c3081a147d7778507a842 -> a359bcb45b8a9070343cabc49c6d6c12
+  custom:scripting/monoscript/fileName/DepthOfFieldModel.cs: f9239a030c5b23687c1a5995e38b7b47 -> ab243c09a4b44fd7a53f73051db01cbc
+  custom:scripting/monoscript/fileName/ParticleMenu.cs: 1db4266800d0873f067b2d6738894df3 -> 701aa12128b01c89a035dcec7c7d7504
+  custom:scripting/monoscript/fileName/ColorGradingModel.cs: 1844f666d35915647c4d13022fead14e -> d1c2ef15f5e9e4868052777d51361b40
+  custom:scripting/monoscript/fileName/ScreenSpaceReflectionModel.cs: 7f56cf200254e9a9d91bec07c05895f9 -> 507d9c80d381478e1c14f5bfe34012ae
+  custom:scripting/monoscript/fileName/TrackballGroupAttribute.cs: b47f241e54f55f42697991d6cebb8aa3 -> 6d071733b141a3fb3360b110560ed1cc
+  custom:scripting/monoscript/fileName/DitheringModelEditor.cs: b527e70b927be57b7dd0abf5a227137f -> 98ce08c54d480e2032b7e03104c8332a
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/ReadmeEditor.cs: 56f6dbf78c2756041ad3480a7e14a138 -> ff7ced1e41c1b99ddf5dfefc88f6bd50
+  custom:scripting/monoscript/fileName/ParticleCollision.cs: fd3262e887bbf4a758ebaf804b209512 -> 71b71ac2cffa6bd7fb708664d6afc389
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/BloomComponent.cs: 55219a0a516c18288878a9ccbe11c703 -> 755f611bb4d32a54d162192a9fc6dd86
+  custom:scripting/monoscript/fileName/MotionBlurComponent.cs: 5754fe4d8521b1090f7af1754136652a -> 6cf5a99eefa473d803af3e64f841a0a6
+  custom:scripting/monoscript/fileName/GunShoot.cs: b88a07cb1b5e1031b90e20a52c7f53ad -> 88c772e3426422d2042c20de5e9fd7a7
+  custom:scripting/monoscript/fileName/BuiltinDebugViewsComponent.cs: 406a42521e17e99446cf84b83cf9cbf3 -> 1b8215a7f6eae55c3fc6a97379498db3
+  custom:scripting/monoscript/fileName/DynamicSkyForDemo.cs: 38928c906272df9510e7a33d68827303 -> ad65acd58580e900ea60ac5360026347
+  custom:scripting/monoscript/fileName/MotionBlurModelEditor.cs: df6ffad1b12d174c0209fcfc7fe9f33c -> 214d77ab75c222685eecaec8c6aed3b0
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:scripting/monoscript/fileName/ChromaticAberrationEditor.cs: c8ae639553c417e2436214bbd577b929 -> 155914d835bfd177c18b8c90db68e385
+  custom:scripting/monoscript/fileName/AmbientOcclusionModel.cs: 7052a2383a028e04161ca3c6760836e8 -> ac26bcd19cab8c88e9b65cb75ee1c356
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/AmbientOcclusionComponent.cs: 06dbc25b95601eccbd02a9f766b36ff1 -> ae5a7089fb97a5a97a8f11138ce7c9d2
+  custom:scripting/monoscript/fileName/GraphicsUtils.cs: ae80dc8c114e8514b629b5cc2daad4f3 -> f7df21c2acb52bb931f99c0a424b6be0
+  custom:scripting/monoscript/fileName/DepthOfFieldComponent.cs: 00fe18056fd83a7dc193ee2c8ed4b860 -> b0afd8f8844e3e4017df6130c14d0dfc
+  custom:scripting/monoscript/fileName/ColorGradingModelEditor.cs: 767417c1693681cb8c755976e11a964e -> d8393f813d799206976f65da1ab781ef
+  custom:scripting/monoscript/fileName/ColorGradingCurve.cs: b9c1ad7f7f86e455aff67e23d7e1f0b6 -> e1e989893ee31e7801923212f0468312
+  custom:scripting/monoscript/fileName/AntialiasingModel.cs: c550b21dd6e2e60119af2fab84b6b051 -> 325b0130eaada61513aeac7b8c97a9d7
+  custom:scripting/monoscript/fileName/ChromaticAberrationModel.cs: 01736265bdd531ba47a15cc16c696452 -> 3f166f1ecbc6f39ed2f6b10cbc5b4ba4
+  custom:scripting/monoscript/fileName/AmbientOcclusionModelEditor.cs: 8f707d0d06dbc40f29b483e7d965a33d -> 99a92cb6d65b3a11adad7b285256ee66
+  custom:scripting/monoscript/fileName/TaaComponent.cs: f22a25863b15b3133608c82a9ec5587f -> 7c343e97072a6712c3a2b01e75fdb7fa
+  custom:scripting/monoscript/fileName/ParadeMonitor.cs: d44427bb5736937b349430ad5bf5a976 -> cae69c77ac3a6bd03788e390b0793dce
+  custom:scripting/monoscript/fileName/BloomModelEditor.cs: ac5cc31e283a221b64de234be2bb1725 -> 82667d6cbb2e9deab73f43bddd4cb3ad
+  custom:scripting/monoscript/fileName/HistogramMonitor.cs: df22e3c8c51a67ac017690dd39809936 -> bb7cb63ac41d6c37c8e749994e51cd98
+  custom:scripting/monoscript/fileName/PostProcessingBehaviourEditor.cs: 6fc9d9634d85ad63ffa270838eae0fcb -> 066ae7bf767a73228aa8d9e772743d81
+  custom:scripting/monoscript/fileName/TDControl.cs: 373fe4956b456bec823168ae825c40e4 -> f9f8951539c227b89501fef2e0706678
+  custom:scripting/monoscript/fileName/PostProcessingModel.cs: 4f38a4d2de93be0dfd82caca271a5b43 -> 2f64caba6afa59bc78865f13b6f9065d
+  custom:scripting/monoscript/fileName/EditorGUIHelper.cs: a306a3e176d5a1c0c3ace68de03671e6 -> 4a11466b474c4ddf8b0e969391a97509
+  custom:scripting/monoscript/fileName/DepthOfFieldModelEditor.cs: 0b99a01db55d8ddd18c5223739772e24 -> c9db63f1a070d3e8ad359080de3aa855
+  custom:scripting/monoscript/fileName/ChromaticAberrationComponent.cs: ef049faac361eecad729eacb38ce3922 -> cda95994b71ba23d0c0f0fe0f241aab9
+  custom:scripting/monoscript/fileName/NVDSkyDemoMaterials.cs: 72fbee894035fe1c64b4e332f32e1426 -> a6a965f118020ba6e4b2ecd888dc0a96
+  custom:scripting/monoscript/fileName/TrackballGroupDrawer.cs: a34c42c47fab2992375fdad91aa325c8 -> 36f1db6df3ee9bb6e23950968f1fa293
+  custom:scripting/monoscript/fileName/BuiltinDebugViewsEditor.cs: d453b480c277e720ef643ce6bc257ba0 -> 315fb7cf21f3f53a30e4961d88029d42
+  custom:scripting/monoscript/fileName/ScreenSpaceReflectionComponent.cs: 4a483d3f8af0c6b0995dcc559acfe2ed -> 79ad7ef64576d014e73a91b6c3af0688
+  custom:scripting/monoscript/fileName/GetSetDrawer.cs: c686ae00e95da4cbba7874503d9cfcd9 -> 19bba8dcf0569bc9ff3f3eb8733c91d8
+  custom:scripting/monoscript/fileName/MotionBlurModel.cs: 274c60589b5e74382a8694979ccde30d -> 4e24ef1d444a45a9e0056ed75c7c7eb7
+  custom:scripting/monoscript/fileName/PostProcessingComponent.cs: efeb1ae6ddabc24c128bd7f372a3ca9f -> 85236d6b86a55b2f46a14367ab625049
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/PostProcessingModelEditor.cs: c6864b645651d174d804901d446e37c7 -> 5454250018fe1f45305c6e2bbb867603
+  custom:scripting/monoscript/fileName/DecalDestroyer.cs: a1b4abfe96e2984de64ab20c769b6f72 -> decd07b35d36ed7e38fde9c92f7048ba
+  custom:scripting/monoscript/fileName/PostProcessingMonitor.cs: 662a99beb3e91dd681045c46ed7a7350 -> d1e07bd8dc8b5f2f5124f2514220156a
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/MaterialFactory.cs: 5bb53a0e2e3bd81efcc066eba2d6a4a6 -> 39b00f1518fc675c62e508eb4bdec486
+  custom:scripting/monoscript/fileName/VectorscopeMonitor.cs: 930dfaf2ccefa3bafa256b1bcb6c3b03 -> 66a737bc4bbc432cc628d48064aabe6a
+  custom:scripting/monoscript/fileName/NVWaterMaterials.cs: 033cc3b00d8426b9c284991f040172fb -> 3b8336c35b3a1d7679e18a8b3e5b7928
+  custom:scripting/monoscript/fileName/ColorGradingComponent.cs: bde4632b106b228223e547c1d108b09c -> fc28099e3cee649b1f5925a07b57ea96
+  custom:scripting/monoscript/fileName/UserLutModel.cs: 3847d07f3a9edf5b907d59a99b381080 -> ce559ad59b29fc066f37249281afd441
+  custom:scripting/monoscript/fileName/EditorResources.cs: a7e4f3728aeec8eaefecd76b036078a6 -> 9f83d1aedff2fa20e157243f0913ea0e
+  custom:scripting/monoscript/fileName/MinAttribute.cs: cc12a8a1ef0bef49336dd18b9e982ce2 -> 04a8151f79cf6bc016fa377feaf7e471
+  custom:scripting/monoscript/fileName/GrainComponent.cs: 00bd615bfcf23e9aeefec6cda9dc7bac -> fae958f48caa0fab6bcf7f9c48b915e1
+  custom:scripting/monoscript/fileName/ParticleExamples.cs: 9ee99ac334261e4b8b57130875b3cd69 -> fa7f72e4810c68574ab637c94b215424
+  custom:scripting/monoscript/fileName/UserLutModelEditor.cs: eccdb45e1938b56e6cf9179278d1ac4c -> 342104b23101d3bfd45391c0769a34cf
+  custom:scripting/monoscript/fileName/FogComponent.cs: 2ec7c76adea6e61dd82e98d792803bba -> 2dfe6d4c859eabd11b82ff8fc7d7ad22
+  custom:scripting/monoscript/fileName/ScreenSpaceReflectionModelEditor.cs: 474ce42e2f1e5e0bc589226baae9c36e -> 7f4dd9c1675fb2cce031c62e047539ef
+  custom:scripting/monoscript/fileName/VignetteComponent.cs: 2dbc117e194778fddfdad164990be1e7 -> 293deb083808f71d2d18d818ef588272
+  custom:scripting/monoscript/fileName/FogModel.cs: c6893b21acc11c973dbb6ca156001f92 -> c4cd4da1fb97c7abf787083602f52bf5
+  custom:scripting/monoscript/fileName/WaveformMonitor.cs: 39ba9c4df047d7ec30466baad28801d5 -> 7ff9d3c5406022a31de781b40395893d
+  custom:scripting/monoscript/fileName/DitheringComponent.cs: 265843943ff487d4ac8819ad57903888 -> 83d905897534466960141b85361bb6b4
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/VignetteModelEditor.cs: 15cde80ce9e809377776a4221d250a0e -> e544ec17c4d10dc7a011d82b890e61d2
+  custom:scripting/monoscript/fileName/UserLutComponent.cs: 9abff5642eb1bc4838e93512fde6f5bb -> 944143ce5f543a40c92ecea777f35ae4
+  custom:scripting/monoscript/fileName/CurveEditor.cs: ccaf64f970e0b30627b34300a13d3492 -> 1cbed521cedae78619aa83bc25a705be
+  custom:scripting/monoscript/fileName/PostProcessingBehaviour.cs: 8dbe1aa3cdf563c2332c615267037233 -> b0fbf7f67aeee9a6f7db03386dbc8c1e
+  custom:scripting/monoscript/fileName/GrainModelEditor.cs: cd6bf5440b48c9d6a62b3b5afeea93e5 -> fc1fd3126ff1a32e5c9c0211f235c203
+  custom:scripting/monoscript/fileName/BloomModel.cs: 2b490bbab065047c0a001ff8102fd3f2 -> b4ba3e478c2698eb99512ead9d78d360
+  custom:scripting/monoscript/fileName/GrainModel.cs: 62749c1110e58c9b72803dfd7a62b51a -> ce4589c9bbcb55f8f632b6617dc5d1f0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.413 seconds
+Refreshing native plugins compatible for Editor in 3.23 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.976 seconds
+Domain Reload Profiling: 1390ms
+	BeginReloadAssembly (163ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (38ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (22ms)
+	LoadAllAssembliesAndSetupDomain (193ms)
+		LoadAssemblies (275ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (12ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (977ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (490ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (52ms)
+			ProcessInitializeOnLoadAttributes (409ms)
+			ProcessInitializeOnLoadMethodAttributes (17ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 4.02 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3299 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 41 unused Assets / (2.0 MB). Loaded Objects now: 3848.
+Memory consumption went from 175.2 MB to 173.1 MB.
+Total: 7.444400 ms (FindLiveObjects: 0.344400 ms CreateObjectMapping: 0.423900 ms MarkObjects: 5.868900 ms  DeleteObjects: 0.806500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/VignetteModel.cs: 7f50c2aab37a4c3e017a6b0f247e351d -> ab6733272f937ac0155aab47b4a8e58e
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:scripting/monoscript/fileName/EyeAdaptationModel.cs: c2582e37de801fc612b6e2b78c316317 -> 5bcc92c7d981d480ed07d6af7dd1a959
+  custom:scripting/monoscript/fileName/PostProcessingModelEditorAttribute.cs: db70957ea2f5702caf5a3d5465ec0ca8 -> 84467b1ef2082fe26f00bdedc34db836
+  custom:scripting/monoscript/fileName/ReflectionUtils.cs: 4cf56b35fc0288d163c9877b6f016be8 -> 14b4c7d2cdf78d9b158d00fb2c3c24b2
+  custom:scripting/monoscript/fileName/MinDrawer.cs: 8c2b8afec69acb014b5f94026d0bc075 -> f0b5a34ad7cefeba48c04a270d4abfc9
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/ExampleWheelController.cs: 8ef2607279449ba0124cd057c36f5238 -> 9600d370c57ff0da5766666ba4365a29
+  custom:scripting/monoscript/fileName/GetSetAttribute.cs: 331252b1a22d46f152f344faf6ec65dd -> b786c1938e0c0f5ecaf463807c2d7653
+  custom:scripting/monoscript/fileName/FxStyles.cs: 6a44d9435d507cc53ca866719410aab5 -> 82e974921467cb55809ecad82f38f7ca
+  custom:scripting/monoscript/fileName/Lighthouse.cs: f6a53c65caf957895a41c57efd86931b -> 1c373454e8f785b9593c6788c560b47f
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/PostProcessingContext.cs: 9420ae8a3fc3cae129f59dbf249be64b -> be8a0bc1565c6324b1fd40a33f66279b
+  custom:scripting/monoscript/fileName/PostProcessingInspector.cs: eb67cd382a487b175c97d8da4aa39063 -> b617eaa0b6e3e752eaf9e9a89203dc82
+  custom:scripting/monoscript/fileName/AntialiasingModelEditor.cs: 5fa1cb14bd7249778e069afe33861317 -> 0f2b80733b1449af72ed38ee469e2a30
+  custom:scripting/monoscript/fileName/EyeAdaptationComponent.cs: 4aabdb34710c188404aa0767c07d0b12 -> 0cb2aaf8cdc20c0baee2205168cbc73c
+  custom:scripting/monoscript/fileName/FxaaComponent.cs: 2d7cef533f04293cc74777705401efd9 -> 9d1fd3efb92e1fef6fd176ee45003f08
+  custom:scripting/monoscript/fileName/DitheringModel.cs: 35de98f8c7f466cbb80be31d7d5b9db6 -> fa99c50231ddc7ca26b5d6c9a68b4b31
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/ExtinguishableFire.cs: 8bf95ae1b8238aad5a7d8659e5c1f34d -> 6fc079e965f07121ccb01d97432a83e7
+  custom:scripting/monoscript/fileName/Readme.cs: d224ae3d547135c42971b15162f90d4d -> 5aedf578fb2663036982fb7b05aaf325
+  custom:scripting/monoscript/fileName/TrackballAttribute.cs: fedcdb6c3082a60a262c7d32cb067872 -> b6bebfc375cd859fcabdbe7a117a8817
+  custom:scripting/monoscript/fileName/PostProcessingProfile.cs: 3d5272bea11d9f6fd95c506ce62c7f9f -> e94a21971fab43a541218a4f91e0403c
+  custom:scripting/monoscript/fileName/BuiltinDebugViewsModel.cs: f3572096872cdfba04eea38b644a4f17 -> 4a09809f2c0ed6cca27229b06ce1d289
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/RenderTextureFactory.cs: bbce6219827da116e287de018780b232 -> b11bc916a1a88ed67d986ee69a536511
+  custom:scripting/monoscript/fileName/FogModelEditor.cs: a96e8a1d71344934839dba86c3806561 -> 64b75506b78e4411272a1d25aff5dcfd
+  custom:scripting/monoscript/fileName/EyeAdaptationModelEditor.cs: 60c3d575675edccba1bf673339a8a8f1 -> ee1343b3ceaceb2c63bf272baf871cbd
+  custom:scripting/monoscript/fileName/NVWaterShaders.cs: 176b9d6151e370d09ddf63830e05b202 -> 4b9987c0eca52fe1aef95c9eeef2276a
+  custom:scripting/monoscript/fileName/DefaultPostFxModelEditor.cs: 0c9d96a056b1148b7e44c118fbce4598 -> e4be4b1d308934dee3a6a91920dc1b3d
+  custom:scripting/monoscript/fileName/PostProcessingFactory.cs: 0fef9d09be526d2bfd738bbdc0f6e8d0 -> f4e35cbabcf5e0add8e963bb8ab175b2
+  custom:scripting/monoscript/fileName/GunAim.cs: f5f0cfd4962c3081a147d7778507a842 -> a359bcb45b8a9070343cabc49c6d6c12
+  custom:scripting/monoscript/fileName/DepthOfFieldModel.cs: f9239a030c5b23687c1a5995e38b7b47 -> ab243c09a4b44fd7a53f73051db01cbc
+  custom:scripting/monoscript/fileName/ParticleMenu.cs: 1db4266800d0873f067b2d6738894df3 -> 701aa12128b01c89a035dcec7c7d7504
+  custom:scripting/monoscript/fileName/ColorGradingModel.cs: 1844f666d35915647c4d13022fead14e -> d1c2ef15f5e9e4868052777d51361b40
+  custom:scripting/monoscript/fileName/ScreenSpaceReflectionModel.cs: 7f56cf200254e9a9d91bec07c05895f9 -> 507d9c80d381478e1c14f5bfe34012ae
+  custom:scripting/monoscript/fileName/TrackballGroupAttribute.cs: b47f241e54f55f42697991d6cebb8aa3 -> 6d071733b141a3fb3360b110560ed1cc
+  custom:scripting/monoscript/fileName/DitheringModelEditor.cs: b527e70b927be57b7dd0abf5a227137f -> 98ce08c54d480e2032b7e03104c8332a
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/ReadmeEditor.cs: 56f6dbf78c2756041ad3480a7e14a138 -> ff7ced1e41c1b99ddf5dfefc88f6bd50
+  custom:scripting/monoscript/fileName/ParticleCollision.cs: fd3262e887bbf4a758ebaf804b209512 -> 71b71ac2cffa6bd7fb708664d6afc389
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/BloomComponent.cs: 55219a0a516c18288878a9ccbe11c703 -> 755f611bb4d32a54d162192a9fc6dd86
+  custom:scripting/monoscript/fileName/MotionBlurComponent.cs: 5754fe4d8521b1090f7af1754136652a -> 6cf5a99eefa473d803af3e64f841a0a6
+  custom:scripting/monoscript/fileName/GunShoot.cs: b88a07cb1b5e1031b90e20a52c7f53ad -> 88c772e3426422d2042c20de5e9fd7a7
+  custom:scripting/monoscript/fileName/BuiltinDebugViewsComponent.cs: 406a42521e17e99446cf84b83cf9cbf3 -> 1b8215a7f6eae55c3fc6a97379498db3
+  custom:scripting/monoscript/fileName/DynamicSkyForDemo.cs: 38928c906272df9510e7a33d68827303 -> ad65acd58580e900ea60ac5360026347
+  custom:scripting/monoscript/fileName/MotionBlurModelEditor.cs: df6ffad1b12d174c0209fcfc7fe9f33c -> 214d77ab75c222685eecaec8c6aed3b0
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:scripting/monoscript/fileName/ChromaticAberrationEditor.cs: c8ae639553c417e2436214bbd577b929 -> 155914d835bfd177c18b8c90db68e385
+  custom:scripting/monoscript/fileName/AmbientOcclusionModel.cs: 7052a2383a028e04161ca3c6760836e8 -> ac26bcd19cab8c88e9b65cb75ee1c356
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/AmbientOcclusionComponent.cs: 06dbc25b95601eccbd02a9f766b36ff1 -> ae5a7089fb97a5a97a8f11138ce7c9d2
+  custom:scripting/monoscript/fileName/GraphicsUtils.cs: ae80dc8c114e8514b629b5cc2daad4f3 -> f7df21c2acb52bb931f99c0a424b6be0
+  custom:scripting/monoscript/fileName/DepthOfFieldComponent.cs: 00fe18056fd83a7dc193ee2c8ed4b860 -> b0afd8f8844e3e4017df6130c14d0dfc
+  custom:scripting/monoscript/fileName/ColorGradingModelEditor.cs: 767417c1693681cb8c755976e11a964e -> d8393f813d799206976f65da1ab781ef
+  custom:scripting/monoscript/fileName/ColorGradingCurve.cs: b9c1ad7f7f86e455aff67e23d7e1f0b6 -> e1e989893ee31e7801923212f0468312
+  custom:scripting/monoscript/fileName/AntialiasingModel.cs: c550b21dd6e2e60119af2fab84b6b051 -> 325b0130eaada61513aeac7b8c97a9d7
+  custom:scripting/monoscript/fileName/ChromaticAberrationModel.cs: 01736265bdd531ba47a15cc16c696452 -> 3f166f1ecbc6f39ed2f6b10cbc5b4ba4
+  custom:scripting/monoscript/fileName/AmbientOcclusionModelEditor.cs: 8f707d0d06dbc40f29b483e7d965a33d -> 99a92cb6d65b3a11adad7b285256ee66
+  custom:scripting/monoscript/fileName/TaaComponent.cs: f22a25863b15b3133608c82a9ec5587f -> 7c343e97072a6712c3a2b01e75fdb7fa
+  custom:scripting/monoscript/fileName/ParadeMonitor.cs: d44427bb5736937b349430ad5bf5a976 -> cae69c77ac3a6bd03788e390b0793dce
+  custom:scripting/monoscript/fileName/BloomModelEditor.cs: ac5cc31e283a221b64de234be2bb1725 -> 82667d6cbb2e9deab73f43bddd4cb3ad
+  custom:scripting/monoscript/fileName/HistogramMonitor.cs: df22e3c8c51a67ac017690dd39809936 -> bb7cb63ac41d6c37c8e749994e51cd98
+  custom:scripting/monoscript/fileName/PostProcessingBehaviourEditor.cs: 6fc9d9634d85ad63ffa270838eae0fcb -> 066ae7bf767a73228aa8d9e772743d81
+  custom:scripting/monoscript/fileName/TDControl.cs: 373fe4956b456bec823168ae825c40e4 -> f9f8951539c227b89501fef2e0706678
+  custom:scripting/monoscript/fileName/PostProcessingModel.cs: 4f38a4d2de93be0dfd82caca271a5b43 -> 2f64caba6afa59bc78865f13b6f9065d
+  custom:scripting/monoscript/fileName/EditorGUIHelper.cs: a306a3e176d5a1c0c3ace68de03671e6 -> 4a11466b474c4ddf8b0e969391a97509
+  custom:scripting/monoscript/fileName/DepthOfFieldModelEditor.cs: 0b99a01db55d8ddd18c5223739772e24 -> c9db63f1a070d3e8ad359080de3aa855
+  custom:scripting/monoscript/fileName/ChromaticAberrationComponent.cs: ef049faac361eecad729eacb38ce3922 -> cda95994b71ba23d0c0f0fe0f241aab9
+  custom:scripting/monoscript/fileName/NVDSkyDemoMaterials.cs: 72fbee894035fe1c64b4e332f32e1426 -> a6a965f118020ba6e4b2ecd888dc0a96
+  custom:scripting/monoscript/fileName/TrackballGroupDrawer.cs: a34c42c47fab2992375fdad91aa325c8 -> 36f1db6df3ee9bb6e23950968f1fa293
+  custom:scripting/monoscript/fileName/BuiltinDebugViewsEditor.cs: d453b480c277e720ef643ce6bc257ba0 -> 315fb7cf21f3f53a30e4961d88029d42
+  custom:scripting/monoscript/fileName/ScreenSpaceReflectionComponent.cs: 4a483d3f8af0c6b0995dcc559acfe2ed -> 79ad7ef64576d014e73a91b6c3af0688
+  custom:scripting/monoscript/fileName/GetSetDrawer.cs: c686ae00e95da4cbba7874503d9cfcd9 -> 19bba8dcf0569bc9ff3f3eb8733c91d8
+  custom:scripting/monoscript/fileName/MotionBlurModel.cs: 274c60589b5e74382a8694979ccde30d -> 4e24ef1d444a45a9e0056ed75c7c7eb7
+  custom:scripting/monoscript/fileName/PostProcessingComponent.cs: efeb1ae6ddabc24c128bd7f372a3ca9f -> 85236d6b86a55b2f46a14367ab625049
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/PostProcessingModelEditor.cs: c6864b645651d174d804901d446e37c7 -> 5454250018fe1f45305c6e2bbb867603
+  custom:scripting/monoscript/fileName/DecalDestroyer.cs: a1b4abfe96e2984de64ab20c769b6f72 -> decd07b35d36ed7e38fde9c92f7048ba
+  custom:scripting/monoscript/fileName/PostProcessingMonitor.cs: 662a99beb3e91dd681045c46ed7a7350 -> d1e07bd8dc8b5f2f5124f2514220156a
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/MaterialFactory.cs: 5bb53a0e2e3bd81efcc066eba2d6a4a6 -> 39b00f1518fc675c62e508eb4bdec486
+  custom:scripting/monoscript/fileName/VectorscopeMonitor.cs: 930dfaf2ccefa3bafa256b1bcb6c3b03 -> 66a737bc4bbc432cc628d48064aabe6a
+  custom:scripting/monoscript/fileName/NVWaterMaterials.cs: 033cc3b00d8426b9c284991f040172fb -> 3b8336c35b3a1d7679e18a8b3e5b7928
+  custom:scripting/monoscript/fileName/ColorGradingComponent.cs: bde4632b106b228223e547c1d108b09c -> fc28099e3cee649b1f5925a07b57ea96
+  custom:scripting/monoscript/fileName/UserLutModel.cs: 3847d07f3a9edf5b907d59a99b381080 -> ce559ad59b29fc066f37249281afd441
+  custom:scripting/monoscript/fileName/EditorResources.cs: a7e4f3728aeec8eaefecd76b036078a6 -> 9f83d1aedff2fa20e157243f0913ea0e
+  custom:scripting/monoscript/fileName/MinAttribute.cs: cc12a8a1ef0bef49336dd18b9e982ce2 -> 04a8151f79cf6bc016fa377feaf7e471
+  custom:scripting/monoscript/fileName/GrainComponent.cs: 00bd615bfcf23e9aeefec6cda9dc7bac -> fae958f48caa0fab6bcf7f9c48b915e1
+  custom:scripting/monoscript/fileName/ParticleExamples.cs: 9ee99ac334261e4b8b57130875b3cd69 -> fa7f72e4810c68574ab637c94b215424
+  custom:scripting/monoscript/fileName/UserLutModelEditor.cs: eccdb45e1938b56e6cf9179278d1ac4c -> 342104b23101d3bfd45391c0769a34cf
+  custom:scripting/monoscript/fileName/FogComponent.cs: 2ec7c76adea6e61dd82e98d792803bba -> 2dfe6d4c859eabd11b82ff8fc7d7ad22
+  custom:scripting/monoscript/fileName/ScreenSpaceReflectionModelEditor.cs: 474ce42e2f1e5e0bc589226baae9c36e -> 7f4dd9c1675fb2cce031c62e047539ef
+  custom:scripting/monoscript/fileName/VignetteComponent.cs: 2dbc117e194778fddfdad164990be1e7 -> 293deb083808f71d2d18d818ef588272
+  custom:scripting/monoscript/fileName/FogModel.cs: c6893b21acc11c973dbb6ca156001f92 -> c4cd4da1fb97c7abf787083602f52bf5
+  custom:scripting/monoscript/fileName/WaveformMonitor.cs: 39ba9c4df047d7ec30466baad28801d5 -> 7ff9d3c5406022a31de781b40395893d
+  custom:scripting/monoscript/fileName/DitheringComponent.cs: 265843943ff487d4ac8819ad57903888 -> 83d905897534466960141b85361bb6b4
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/VignetteModelEditor.cs: 15cde80ce9e809377776a4221d250a0e -> e544ec17c4d10dc7a011d82b890e61d2
+  custom:scripting/monoscript/fileName/UserLutComponent.cs: 9abff5642eb1bc4838e93512fde6f5bb -> 944143ce5f543a40c92ecea777f35ae4
+  custom:scripting/monoscript/fileName/CurveEditor.cs: ccaf64f970e0b30627b34300a13d3492 -> 1cbed521cedae78619aa83bc25a705be
+  custom:scripting/monoscript/fileName/PostProcessingBehaviour.cs: 8dbe1aa3cdf563c2332c615267037233 -> b0fbf7f67aeee9a6f7db03386dbc8c1e
+  custom:scripting/monoscript/fileName/GrainModelEditor.cs: cd6bf5440b48c9d6a62b3b5afeea93e5 -> fc1fd3126ff1a32e5c9c0211f235c203
+  custom:scripting/monoscript/fileName/BloomModel.cs: 2b490bbab065047c0a001ff8102fd3f2 -> b4ba3e478c2698eb99512ead9d78d360
+  custom:scripting/monoscript/fileName/GrainModel.cs: 62749c1110e58c9b72803dfd7a62b51a -> ce4589c9bbcb55f8f632b6617dc5d1f0
+========================================================================
+Received Import Request.
+  Time since last request: 22273.233385 seconds.
+  path: Assets/VCR01/VCR_AWM/Olive/URP/AWMOptimized_DefaultMaterial_Emission.png
+  artifactKey: Guid(10c693cd0e08fe84e86c6566259f8046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VCR01/VCR_AWM/Olive/URP/AWMOptimized_DefaultMaterial_Emission.png using Guid(10c693cd0e08fe84e86c6566259f8046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09407079c5b45022da53c021e92e662e') in 0.090329 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/VCR01/VCR_AWM/Olive/URP/AWMOptimized_DefaultMaterial_MetallicSmoothness.png
+  artifactKey: Guid(a76cd1063cd4308469b804e0c7cf6b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VCR01/VCR_AWM/Olive/URP/AWMOptimized_DefaultMaterial_MetallicSmoothness.png using Guid(a76cd1063cd4308469b804e0c7cf6b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdbddd2f1b6298ad586546a4e0e925cc') in 0.055349 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/VCR01/VCR_AWM/Olive/URP/AWMOptimizedOliveURP.prefab
+  artifactKey: Guid(74d541ec52fd80a418d2c7028f615686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VCR01/VCR_AWM/Olive/URP/AWMOptimizedOliveURP.prefab using Guid(74d541ec52fd80a418d2c7028f615686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b15134c996e7b84761830ab0c18301a') in 0.120284 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 99
+========================================================================
+Received Import Request.
+  Time since last request: 24.941057 seconds.
+  path: Assets/dowloaded assets/particle effects/EffectExamples/FireExplosionEffects/Prefabs/BigExplosionEffect.prefab
+  artifactKey: Guid(acf39d9f4addf294d93fa56fa373961b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/dowloaded assets/particle effects/EffectExamples/FireExplosionEffects/Prefabs/BigExplosionEffect.prefab using Guid(acf39d9f4addf294d93fa56fa373961b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '895f8ea4a37ec8630568f3b118ba39fc') in 0.257867 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 49
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/dowloaded assets/particle effects/EffectExamples/Shared/Models/FPSWeapon.fbx
+  artifactKey: Guid(47509307932d1e140a2b4d9024d228e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/dowloaded assets/particle effects/EffectExamples/Shared/Models/FPSWeapon.fbx using Guid(47509307932d1e140a2b4d9024d228e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7a218184a68c6a063bceb09483a18fe') in 0.047051 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/dowloaded assets/water shader/Example Scenes/Environment/Flag/Models/Flag.fbx
+  artifactKey: Guid(6767b4a71c004723b61cf1c813fe0d8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/dowloaded assets/water shader/Example Scenes/Environment/Flag/Models/Flag.fbx using Guid(6767b4a71c004723b61cf1c813fe0d8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed2b47e8b4ddf71c2b72979f8e9d9812') in 0.131083 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/dowloaded assets/temple/JungleTemple Demo/Models/Walls/Large_Single_Statue_Wall_01.fbx
+  artifactKey: Guid(668b17568ea56c04197937099e684535) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/dowloaded assets/temple/JungleTemple Demo/Models/Walls/Large_Single_Statue_Wall_01.fbx using Guid(668b17568ea56c04197937099e684535) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d9c6bccb9c3fc7ec149e5e3002eee62') in 0.032879 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Little_GhostLP(FREE)/FBX/LittleGhost_LP.fbx
+  artifactKey: Guid(4052bafe63c4eef489221dc973080238) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Little_GhostLP(FREE)/FBX/LittleGhost_LP.fbx using Guid(4052bafe63c4eef489221dc973080238) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3822395917a40f2508853f7069d5df2c') in 0.368524 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 53
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/dowloaded assets/water shader/Example Scenes/Environment/Lighthouse/Models/Lighthouse.fbx
+  artifactKey: Guid(c5a48421b9b94cd0bc89db4379a3dae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/dowloaded assets/water shader/Example Scenes/Environment/Lighthouse/Models/Lighthouse.fbx using Guid(c5a48421b9b94cd0bc89db4379a3dae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f18b4ba49afee0bf0197dba99418b1d') in 0.049969 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/dowloaded assets/particle effects/EffectExamples/FireExplosionEffects/Prefabs/FlamesParticleEffect.prefab
+  artifactKey: Guid(3228a22491941734bb83ad691d17fcb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/dowloaded assets/particle effects/EffectExamples/FireExplosionEffects/Prefabs/FlamesParticleEffect.prefab using Guid(3228a22491941734bb83ad691d17fcb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87af810de2c06a01aef14c91b046da95') in 0.024413 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Little_GhostLP(FREE)/Prefabs/Others/Floor Rounded.prefab
+  artifactKey: Guid(699ac7b377a817d41b66df22a2e8ad55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Little_GhostLP(FREE)/Prefabs/Others/Floor Rounded.prefab using Guid(699ac7b377a817d41b66df22a2e8ad55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8676ce3ba9b23919cb35422601c5893d') in 0.173797 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/dowloaded assets/particle effects/EffectExamples/WeaponEffects/Prefabs/CartridgeEjectEffect.prefab
+  artifactKey: Guid(7ca96822084510147adb2aea03d45e3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/dowloaded assets/particle effects/EffectExamples/WeaponEffects/Prefabs/CartridgeEjectEffect.prefab using Guid(7ca96822084510147adb2aea03d45e3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60e4cd937c2448da3a6e6bc054944d86') in 0.199090 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Little_GhostLP(FREE)/FBX/Floor Rounded.fbx
+  artifactKey: Guid(b7bb9d9193ce6f046b2d749fe79b86d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Little_GhostLP(FREE)/FBX/Floor Rounded.fbx using Guid(b7bb9d9193ce6f046b2d749fe79b86d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2821cb51a9dbe9f85831a527df1ddb9') in 0.055533 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/dowloaded assets/particle effects/EffectExamples/WeaponEffects/Prefabs/BulletImpactMetalEffect.prefab
+  artifactKey: Guid(02a509a7fa70ed740ba4197e20c5d32d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/dowloaded assets/particle effects/EffectExamples/WeaponEffects/Prefabs/BulletImpactMetalEffect.prefab using Guid(02a509a7fa70ed740ba4197e20c5d32d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f1c25d58a9f7585ada0fb8a3281eb23') in 0.358687 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 12.127431 seconds.
+  path: Assets/dowloaded assets/particle effects/EffectExamples/WeaponEffects/Prefabs/MuzzleFlashEffect.prefab
+  artifactKey: Guid(9defeac88977c0d448aa4541073ee9e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/dowloaded assets/particle effects/EffectExamples/WeaponEffects/Prefabs/MuzzleFlashEffect.prefab using Guid(9defeac88977c0d448aa4541073ee9e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fa5f0095df1e8bf0a0cf52e55697e19') in 0.087303 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/dowloaded assets/water shader/Example Scenes/Environment/Palm Trees/Models/Palm Tress.fbx
+  artifactKey: Guid(ac46fdecd19940e08753b2f1f80b22a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/dowloaded assets/water shader/Example Scenes/Environment/Palm Trees/Models/Palm Tress.fbx using Guid(ac46fdecd19940e08753b2f1f80b22a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1de60ec9f0ae7fe4ab0a5420857582bb') in 0.204796 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 26
+========================================================================
+Received Import Request.
+  Time since last request: 0.812044 seconds.
+  path: Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Mushrooms/PT_Caesars_Mushroom_01.fbx
+  artifactKey: Guid(2ec966d90911a454c9760fa28789a4f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Mushrooms/PT_Caesars_Mushroom_01.fbx using Guid(2ec966d90911a454c9760fa28789a4f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11bc6aa7403288227e4fd728ba4e8933') in 0.041099 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Trees/PT_Fruit_Tree_01_dead_cut.fbx
+  artifactKey: Guid(ddcbcdd7a43212c4d86fe33f77dac074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Trees/PT_Fruit_Tree_01_dead_cut.fbx using Guid(ddcbcdd7a43212c4d86fe33f77dac074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d1907b557cbb67d59f48871481a82c1') in 0.106997 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Trees/PT_Fruit_Tree_01_green.fbx
+  artifactKey: Guid(f222748f1796b2e49a56a2fbf7563247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Trees/PT_Fruit_Tree_01_green.fbx using Guid(f222748f1796b2e49a56a2fbf7563247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc5c131cc501d4ae0eded116235f5213') in 0.177777 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 0.305746 seconds.
+  path: Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Trees/PT_Fruit_Tree_01_plums.fbx
+  artifactKey: Guid(0ef9f3b550a8ffd40ab0be1ae6034fe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Trees/PT_Fruit_Tree_01_plums.fbx using Guid(0ef9f3b550a8ffd40ab0be1ae6034fe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '790de40bbc972aade742939f6db215ac') in 0.092965 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 0.035247 seconds.
+  path: Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Plants/PT_Grass_02.fbx
+  artifactKey: Guid(8c71f03fcb0c13644a30696cafc5cda8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Plants/PT_Grass_02.fbx using Guid(8c71f03fcb0c13644a30696cafc5cda8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55614a6d38bf69b7c2ce9c0cc5fb7b2b') in 0.122110 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 0.529296 seconds.
+  path: Assets/Polytope Studio/Lowpoly_Village/Sources/Meshes/Modular/Fence/PT_Modular_Fence_Wood_03.fbx
+  artifactKey: Guid(955f7ab7f12013b42b2aa2e494846f3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly_Village/Sources/Meshes/Modular/Fence/PT_Modular_Fence_Wood_03.fbx using Guid(955f7ab7f12013b42b2aa2e494846f3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20b3310efe12e07770c17ac4bb39f157') in 0.060924 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.082589 seconds.
+  path: Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Trees/PT_Pine_Tree_03_dead_cut.fbx
+  artifactKey: Guid(3b8d3c0077d69eb4db5ee5754518f067) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Trees/PT_Pine_Tree_03_dead_cut.fbx using Guid(3b8d3c0077d69eb4db5ee5754518f067) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0605bc292f562bcd6e67c335de5cf364') in 0.024314 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.208802 seconds.
+  path: Assets/dowloaded assets/water shader/Example Scenes/Environment/Rainbow/Rainbow.prefab
+  artifactKey: Guid(97768f613245426fb1fc4145b06b5c8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/dowloaded assets/water shader/Example Scenes/Environment/Rainbow/Rainbow.prefab using Guid(97768f613245426fb1fc4145b06b5c8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40e7f23b76e932e8215f26e636f62ea3') in 0.037158 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/dowloaded assets/particle effects/EffectExamples/WeaponEffects/Models/RocketWarhead.FBX
+  artifactKey: Guid(c25b0e0e92e901144a739246c4539336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/dowloaded assets/particle effects/EffectExamples/WeaponEffects/Models/RocketWarhead.FBX using Guid(c25b0e0e92e901144a739246c4539336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '433e7cba1380214aeaf07fdb848009d5') in 0.036482 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/dowloaded assets/temple/JungleTemple Demo/Models/Roofing/Dividers/Roofing_Dividers_01.fbx
+  artifactKey: Guid(abfa2bfea6eabee40b3c409875961b5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/dowloaded assets/temple/JungleTemple Demo/Models/Roofing/Dividers/Roofing_Dividers_01.fbx using Guid(abfa2bfea6eabee40b3c409875961b5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9707ad883f191abee4fde31216d83e98') in 0.056751 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.256683 seconds.
+  path: Assets/dowloaded assets/temple/JungleTemple Demo/Models/Structures/Small_Tower.fbx
+  artifactKey: Guid(4674a50f24cefa844993842b0a575d76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/dowloaded assets/temple/JungleTemple Demo/Models/Structures/Small_Tower.fbx using Guid(4674a50f24cefa844993842b0a575d76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '732c31079de510da4102081841d8b157') in 0.027240 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.100181 seconds.
+  path: Assets/dowloaded assets/water shader/Examples Water/Prefabs/Water Specular Mirror.prefab
+  artifactKey: Guid(be3a74ee4c9d4d899462b72a41f62728) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/dowloaded assets/water shader/Examples Water/Prefabs/Water Specular Mirror.prefab using Guid(be3a74ee4c9d4d899462b72a41f62728) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0552beec10631b736b004667f23bde23') in 0.066023 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/dowloaded assets/particle effects/EffectExamples/WaterEffects/Models/WaterFaucet.FBX
+  artifactKey: Guid(3cd30427c314b904d8bc315f84506731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/dowloaded assets/particle effects/EffectExamples/WaterEffects/Models/WaterFaucet.FBX using Guid(3cd30427c314b904d8bc315f84506731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75588a9fa65a079127b6aa9f53fb9e61') in 0.076649 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
